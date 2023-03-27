@@ -1,0 +1,12 @@
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.csproj.AssemblyReference.cache
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.AssemblyInfoInputs.cache
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.AssemblyInfo.cs
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.csproj.CoreCompileInputs.cache
+C:\WorkSpace\CompanyApp\Company.infrastructure\bin\Debug\net6.0\Company.infrastructure.deps.json
+C:\WorkSpace\CompanyApp\Company.infrastructure\bin\Debug\net6.0\Company.infrastructure.dll
+C:\WorkSpace\CompanyApp\Company.infrastructure\bin\Debug\net6.0\Company.infrastructure.pdb
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.dll
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\refint\Company.infrastructure.dll
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\Company.infrastructure.pdb
+C:\WorkSpace\CompanyApp\Company.infrastructure\obj\Debug\net6.0\ref\Company.infrastructure.dll
