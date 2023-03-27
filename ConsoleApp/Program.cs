@@ -176,10 +176,10 @@ internal class Program
                             break;
 
                         case 6:// Employee info
-                            break;
+                        
                             Console.WriteLine("employe list");
-                            EmployeeService.GetAllEmplyee();  
-
+                            EmployeeService.GetAllEmplyee();
+                            break;
                         default:
                             Console.WriteLine("Enter correct menu item!\n" +
                                 "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");

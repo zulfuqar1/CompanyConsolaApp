@@ -24,7 +24,7 @@ public  class EmployeeService
         if (isExist)
         {
             throw new DuplicateNameException(
-                "this Department name alredy exist !\n" +
+                "this Employee alredy exist !\n" +
                 "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
         }
         Employee new_Employee = new(name, Surname,Salary,Department_id);
@@ -35,7 +35,27 @@ public  class EmployeeService
     {
         for (int i = 0; i < index_counter; i++)
         {
-            Console.WriteLine("Id: " + AppDBContext.employees[i].id + " -> " + "name: " + AppDBContext.employees[i].Name);
+            string temp_department = string.Empty;
+            foreach (var department in AppDBContext.corparations)
+            {
+                if (department == null) break;
+                if (AppDBContext.employees[i].DepartmenId == department.id)
+                {
+                    temp_department = department.Name;
+
+                    break;
+                }
+            }
+            Console.WriteLine(
+                $"- Id: {AppDBContext.employees[i].id} " +
+                $"- Name: {AppDBContext.employees[i].Name} " +
+                $"- Surname: {AppDBContext.employees[i].Surname} " +
+                $"- Salary: {AppDBContext.employees[i].Salary} " +
+                $"- department : {temp_department} ");
         }
+        //    for (int i = 0; i < index_counter; i++)
+        //    {
+        //        Console.WriteLine("Id: " + AppDBContext.employees[i].id + " -> " + "name: " + AppDBContext.employees[i].Name);
+        //    }
     }
 }

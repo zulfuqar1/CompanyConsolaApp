@@ -22,8 +22,10 @@ public class Employee : IEntity
         Salary = salary;
     }
 
-    public override string? ToString()
+
+        public override string ToString()
     {
-        return base.ToString();
+        return $"Name: {Name}, Surname: {Surname}, Salary :{Salary}, department Id {DepartmenId}";
     }
 }
+
